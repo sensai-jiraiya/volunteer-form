@@ -30,10 +30,10 @@ input[type="radio"] + label::before {
 }
 
 hr {
-  border-color:#70ad55;
+  border-color: #70ad55;
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 60em) {
 
   .pad-left {
     padding-left: .5em;
