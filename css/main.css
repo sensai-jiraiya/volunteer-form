@@ -15,3 +15,15 @@ footer {
   background-color: #70ad55;
   color: #fff;
 }
+
+.btn {
+  background-color: #70ad55;
+  color: #fff;
+}
+select,
+input,
+textarea,
+input[type="checkbox"]+label::before,
+input[type="radio"]+label::before {
+  broder-color: #6e8c62;
+}
