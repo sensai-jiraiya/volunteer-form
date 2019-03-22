@@ -24,7 +24,23 @@ footer {
 select,
 input,
 textarea,
-input[type="checkbox"]+label::before,
-input[type="radio"]+label::before {
-  broder-color: #6e8c62;
+input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
+  border-color: #6e8c62;
+}
+
+hr {
+  border-color:#70ad55;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .pad-left {
+    padding-left: .5em;
+  }
+
+  .pad-right {
+    padding-right: .5em;
+  }
+
 }
